@@ -15,7 +15,7 @@ namespace FundamentosNetCore
             this.textNombre.Text = "Soy un string";
             this.textNombre.Width = 220;
             this.textNombre.TextAlign = HorizontalAlignment.Right;
-            this.btnPulsar.BackColor = Color.BlueViolet;
+            this.btnPulsar.BackColor = Color.CornflowerBlue;
         }
     }
 }
