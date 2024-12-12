@@ -1,6 +1,6 @@
 ﻿namespace FundamentosNetCore
 {
-    partial class Form1
+    partial class Form01
     {
         /// <summary>
         ///  Required designer variable.
