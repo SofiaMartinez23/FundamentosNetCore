@@ -11,7 +11,10 @@ namespace FundamentosNetCore
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form12ColeccionMultiple());
+            Application.Run(new Form15Metodos());
+            //Application.Run(new Form14Tiendaproductos());
+            //Application.Run(new Form13ColeccionNumeros());
+            //Application.Run(new Form12ColeccionMultiple());
             //Application.Run(new Form11ColeccionGrafica());
             //Application.Run(new Form10Dni());
             //Application.Run(new Form09Isbn());

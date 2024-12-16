@@ -37,6 +37,7 @@
             btnInsert = new Button();
             lstElementos = new ListBox();
             label1 = new Label();
+            btnSeleccionado = new Button();
             SuspendLayout();
             // 
             // lblIndexSeleccionado
@@ -65,6 +66,7 @@
             btnDeleteAll.TabIndex = 15;
             btnDeleteAll.Text = "Borrar Todo";
             btnDeleteAll.UseVisualStyleBackColor = true;
+            btnDeleteAll.Click += btnDeleteAll_Click;
             // 
             // txtNuevoElemento
             // 
@@ -90,6 +92,7 @@
             btnDelete.TabIndex = 12;
             btnDelete.Text = "Eliminar";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnInsert
             // 
@@ -99,6 +102,7 @@
             btnInsert.TabIndex = 11;
             btnInsert.Text = "Insertar";
             btnInsert.UseVisualStyleBackColor = true;
+            btnInsert.Click += btnInsert_Click;
             // 
             // lstElementos
             // 
@@ -118,11 +122,22 @@
             label1.TabIndex = 9;
             label1.Text = "Elementos";
             // 
+            // btnSeleccionado
+            // 
+            btnSeleccionado.Location = new Point(260, 257);
+            btnSeleccionado.Name = "btnSeleccionado";
+            btnSeleccionado.Size = new Size(150, 39);
+            btnSeleccionado.TabIndex = 18;
+            btnSeleccionado.Text = "Seleccionado";
+            btnSeleccionado.UseVisualStyleBackColor = true;
+            btnSeleccionado.Click += btnSeleccionado_Click;
+            // 
             // Form12ColeccionMultiple
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(449, 317);
+            Controls.Add(btnSeleccionado);
             Controls.Add(lblIndexSeleccionado);
             Controls.Add(lblItemSeleccionado);
             Controls.Add(btnDeleteAll);
@@ -149,5 +164,6 @@
         private Button btnInsert;
         private ListBox lstElementos;
         private Label label1;
+        private Button btnSeleccionado;
     }
 }
