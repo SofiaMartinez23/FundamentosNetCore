@@ -11,7 +11,10 @@ namespace FundamentosNetCore
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form19SumarCheckBox());
+            Application.Run(new Form22Mascotas());
+            //Application.Run(new Form21FIles());
+            //Application.Run(new Form20TextClases());
+            //Application.Run(new Form19SumarCheckBox());
             //Application.Run(new Form18SumarBotones());
             //Application.Run(new Form17ListDelegados());
             //Application.Run(new Form16ArrayList());

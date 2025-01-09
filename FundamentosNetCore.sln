@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentosNetCore", "FundamentosNetCore\FundamentosNetCore.csproj", "{BF7F8B7D-40BE-4096-ADF2-B2D9A1E112C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoClases", "ProyectoClases\ProyectoClases.csproj", "{B702AC71-52C5-4CF6-8078-364BEAE5F96B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BF7F8B7D-40BE-4096-ADF2-B2D9A1E112C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF7F8B7D-40BE-4096-ADF2-B2D9A1E112C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF7F8B7D-40BE-4096-ADF2-B2D9A1E112C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B702AC71-52C5-4CF6-8078-364BEAE5F96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B702AC71-52C5-4CF6-8078-364BEAE5F96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B702AC71-52C5-4CF6-8078-364BEAE5F96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B702AC71-52C5-4CF6-8078-364BEAE5F96B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
