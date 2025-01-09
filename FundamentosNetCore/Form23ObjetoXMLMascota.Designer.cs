@@ -34,8 +34,8 @@
             txtRaza = new TextBox();
             label3 = new Label();
             txtEdad = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
+            btnLeerDato = new Button();
+            btnGuardarDato = new Button();
             SuspendLayout();
             // 
             // txtNombre
@@ -75,9 +75,9 @@
             label3.AutoSize = true;
             label3.Location = new Point(27, 140);
             label3.Name = "label3";
-            label3.Size = new Size(33, 15);
+            label3.Size = new Size(34, 15);
             label3.TabIndex = 4;
-            label3.Text = "Edad";
+            label3.Text = "Años";
             // 
             // txtEdad
             // 
@@ -86,31 +86,33 @@
             txtEdad.Size = new Size(100, 23);
             txtEdad.TabIndex = 5;
             // 
-            // button1
+            // btnLeerDato
             // 
-            button1.Location = new Point(180, 42);
-            button1.Name = "button1";
-            button1.Size = new Size(90, 41);
-            button1.TabIndex = 6;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnLeerDato.Location = new Point(180, 42);
+            btnLeerDato.Name = "btnLeerDato";
+            btnLeerDato.Size = new Size(90, 41);
+            btnLeerDato.TabIndex = 6;
+            btnLeerDato.Text = "Leer dato";
+            btnLeerDato.UseVisualStyleBackColor = true;
+            btnLeerDato.Click += btnLeerDato_Click;
             // 
-            // button2
+            // btnGuardarDato
             // 
-            button2.Location = new Point(180, 98);
-            button2.Name = "button2";
-            button2.Size = new Size(90, 40);
-            button2.TabIndex = 7;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnGuardarDato.Location = new Point(180, 98);
+            btnGuardarDato.Name = "btnGuardarDato";
+            btnGuardarDato.Size = new Size(90, 40);
+            btnGuardarDato.TabIndex = 7;
+            btnGuardarDato.Text = "Guardar dato";
+            btnGuardarDato.UseVisualStyleBackColor = true;
+            btnGuardarDato.Click += btnGuardarDato_Click;
             // 
             // Form23ObjetoXMLMascota
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(316, 252);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(316, 221);
+            Controls.Add(btnGuardarDato);
+            Controls.Add(btnLeerDato);
             Controls.Add(txtEdad);
             Controls.Add(label3);
             Controls.Add(txtRaza);
@@ -131,7 +133,7 @@
         private TextBox txtRaza;
         private Label label3;
         private TextBox txtEdad;
-        private Button button1;
-        private Button button2;
+        private Button btnLeerDato;
+        private Button btnGuardarDato;
     }
 }
